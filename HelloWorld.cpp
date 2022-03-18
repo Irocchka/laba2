@@ -1,12 +1,10 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
-
 int main()
 {
-string username;
-cout<<"Vvedite username";
-cin>>username;
- cout << "Hello world" << endl;
+string username;//User name
+std::cout<<"Vvedite username";
+std::cin>>username;\\ Input user name
+std::cout << "Hello world from" <<username;
 }
