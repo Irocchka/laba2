@@ -1,7 +1,8 @@
 #include <iostream>
 #include <string>
 
-int main()
+int
+main()
 {
 string username;//User name)
 std::cout<<"Vvedite username";
